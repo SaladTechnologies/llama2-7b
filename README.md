@@ -24,7 +24,7 @@ First, [download the model](https://huggingface.co/meta-llama/Llama-2-7b/tree/ma
 ```shell
 python3 llama2-7b-gpu-docker/convert_llama_weights_to_hf.py \
 --input_dir llama2-7b-gpu-docker/model \
---model_size tokenizer_only \
+--model_size 7B \
 --output_dir llama2-7b-gpu-docker/model_hf
 ```
 
